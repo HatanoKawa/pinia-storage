@@ -1,0 +1,26 @@
+{
+  "name": "pinia-storage",
+  "version": "0.0.1",
+  "description": "A pinia plugin to automatically bind your data with storage.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": {
+      "default": "./index.ts"
+    }
+  },
+  "keywords": [
+    "pinia",
+    "plugin",
+    "localStorage",
+    "sessionStorage"
+  ],
+  "author": "HatanoKawa",
+  "license": "MIT",
+  "devDependencies": {
+    "pinia": "^2.0.14",
+    "vue": "^3.2.33"
+  }
+}
